@@ -1,2 +1,2 @@
 # javascript-learning
-Examples from JavaScript for Data Science.
+Examples from Learning JavaScript and JavaScript for Data Science.
