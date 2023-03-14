@@ -13,3 +13,9 @@ console.log("the type of", a_integer, "is", typeof a_integer)
 // Defining a string variable: a_string
 const a_string = "This is a string"
 console.log(a_string)
+
+// For loop
+const other_values = [true, undefined, null]
+for (let value of other_values) {
+    console.log("The type of", value, "is", typeof value)
+}
