@@ -10,12 +10,6 @@
     </div>
     
     <script type="module">
-        import('https://webr.r-wasm.org/latest/webr.mjs').then(
-  async ({ WebR }) => {
-    const webR = new WebR();
-    await webR.init();
-  }
-);
       /* Create a webR console using the Console helper class */
       import { Console } from 'https://webr.r-wasm.org/latest/webr.mjs';
       const webRConsole = new Console({
